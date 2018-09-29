@@ -11,6 +11,24 @@
 		2B3009CF215F68E400FE3A2E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B3009CE215F68E400FE3A2E /* ViewController.swift */; };
 		2B3009D1215F68E500FE3A2E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B3009D0215F68E500FE3A2E /* Assets.xcassets */; };
 		2B3009D4215F68E500FE3A2E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B3009D2215F68E500FE3A2E /* Main.storyboard */; };
+		2B3009EB215F690200FE3A2E /* AAPLSlide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B3009DC215F690100FE3A2E /* AAPLSlide.swift */; };
+		2B3009EC215F690200FE3A2E /* AAPLFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B3009DD215F690100FE3A2E /* AAPLFooterView.swift */; };
+		2B3009ED215F690200FE3A2E /* AAPLImageCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B3009DE215F690100FE3A2E /* AAPLImageCollection.swift */; };
+		2B3009EE215F690200FE3A2E /* AAPLAppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B3009DF215F690100FE3A2E /* AAPLAppDelegate.swift */; };
+		2B3009EF215F690200FE3A2E /* AAPLHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B3009E0215F690100FE3A2E /* AAPLHeaderView.swift */; };
+		2B3009F0215F690200FE3A2E /* AAPLSlideImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B3009E1215F690100FE3A2E /* AAPLSlideImageView.swift */; };
+		2B3009F1215F690200FE3A2E /* AAPLFileTreeWatcherThread.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B3009E2215F690100FE3A2E /* AAPLFileTreeWatcherThread.swift */; };
+		2B3009F2215F690200FE3A2E /* AAPLWrappedLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B3009E3215F690100FE3A2E /* AAPLWrappedLayout.swift */; };
+		2B3009F3215F690200FE3A2E /* AAPLSlideCarrierView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B3009E4215F690100FE3A2E /* AAPLSlideCarrierView.swift */; };
+		2B3009F4215F690200FE3A2E /* AAPLSlideBorderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B3009E5215F690100FE3A2E /* AAPLSlideBorderView.swift */; };
+		2B3009F5215F690200FE3A2E /* AAPLBrowserWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B3009E6215F690100FE3A2E /* AAPLBrowserWindowController.swift */; };
+		2B3009F6215F690200FE3A2E /* Array+sorted.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B3009E7215F690100FE3A2E /* Array+sorted.swift */; };
+		2B3009F7215F690200FE3A2E /* AAPLSlideLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B3009E8215F690100FE3A2E /* AAPLSlideLayout.swift */; };
+		2B3009F8215F690200FE3A2E /* AAPLImageFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B3009E9215F690200FE3A2E /* AAPLImageFile.swift */; };
+		2B3009F9215F690200FE3A2E /* ObjC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B3009EA215F690200FE3A2E /* ObjC.swift */; };
+		2B3009FE215F696F00FE3A2E /* Slide.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2B3009FB215F696F00FE3A2E /* Slide.xib */; };
+		2B3009FF215F696F00FE3A2E /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2B3009FC215F696F00FE3A2E /* MainMenu.xib */; };
+		2B300A00215F696F00FE3A2E /* BrowserWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2B3009FD215F696F00FE3A2E /* BrowserWindow.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +39,24 @@
 		2B3009D3215F68E500FE3A2E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2B3009D5215F68E500FE3A2E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2B3009D6215F68E500FE3A2E /* PhotoGallery.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PhotoGallery.entitlements; sourceTree = "<group>"; };
+		2B3009DC215F690100FE3A2E /* AAPLSlide.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AAPLSlide.swift; sourceTree = "<group>"; };
+		2B3009DD215F690100FE3A2E /* AAPLFooterView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AAPLFooterView.swift; sourceTree = "<group>"; };
+		2B3009DE215F690100FE3A2E /* AAPLImageCollection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AAPLImageCollection.swift; sourceTree = "<group>"; };
+		2B3009DF215F690100FE3A2E /* AAPLAppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AAPLAppDelegate.swift; sourceTree = "<group>"; };
+		2B3009E0215F690100FE3A2E /* AAPLHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AAPLHeaderView.swift; sourceTree = "<group>"; };
+		2B3009E1215F690100FE3A2E /* AAPLSlideImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AAPLSlideImageView.swift; sourceTree = "<group>"; };
+		2B3009E2215F690100FE3A2E /* AAPLFileTreeWatcherThread.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AAPLFileTreeWatcherThread.swift; sourceTree = "<group>"; };
+		2B3009E3215F690100FE3A2E /* AAPLWrappedLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AAPLWrappedLayout.swift; sourceTree = "<group>"; };
+		2B3009E4215F690100FE3A2E /* AAPLSlideCarrierView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AAPLSlideCarrierView.swift; sourceTree = "<group>"; };
+		2B3009E5215F690100FE3A2E /* AAPLSlideBorderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AAPLSlideBorderView.swift; sourceTree = "<group>"; };
+		2B3009E6215F690100FE3A2E /* AAPLBrowserWindowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AAPLBrowserWindowController.swift; sourceTree = "<group>"; };
+		2B3009E7215F690100FE3A2E /* Array+sorted.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Array+sorted.swift"; sourceTree = "<group>"; };
+		2B3009E8215F690100FE3A2E /* AAPLSlideLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AAPLSlideLayout.swift; sourceTree = "<group>"; };
+		2B3009E9215F690200FE3A2E /* AAPLImageFile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AAPLImageFile.swift; sourceTree = "<group>"; };
+		2B3009EA215F690200FE3A2E /* ObjC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ObjC.swift; sourceTree = "<group>"; };
+		2B3009FB215F696F00FE3A2E /* Slide.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Slide.xib; sourceTree = "<group>"; };
+		2B3009FC215F696F00FE3A2E /* MainMenu.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainMenu.xib; sourceTree = "<group>"; };
+		2B3009FD215F696F00FE3A2E /* BrowserWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BrowserWindow.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,14 +89,40 @@
 		2B3009CB215F68E400FE3A2E /* PhotoGallery */ = {
 			isa = PBXGroup;
 			children = (
+				2B3009FA215F690700FE3A2E /* New Group */,
 				2B3009CC215F68E400FE3A2E /* AppDelegate.swift */,
 				2B3009CE215F68E400FE3A2E /* ViewController.swift */,
 				2B3009D0215F68E500FE3A2E /* Assets.xcassets */,
 				2B3009D2215F68E500FE3A2E /* Main.storyboard */,
+				2B3009FD215F696F00FE3A2E /* BrowserWindow.xib */,
+				2B3009FC215F696F00FE3A2E /* MainMenu.xib */,
+				2B3009FB215F696F00FE3A2E /* Slide.xib */,
 				2B3009D5215F68E500FE3A2E /* Info.plist */,
 				2B3009D6215F68E500FE3A2E /* PhotoGallery.entitlements */,
 			);
 			path = PhotoGallery;
+			sourceTree = "<group>";
+		};
+		2B3009FA215F690700FE3A2E /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+				2B3009DF215F690100FE3A2E /* AAPLAppDelegate.swift */,
+				2B3009E6215F690100FE3A2E /* AAPLBrowserWindowController.swift */,
+				2B3009E2215F690100FE3A2E /* AAPLFileTreeWatcherThread.swift */,
+				2B3009DD215F690100FE3A2E /* AAPLFooterView.swift */,
+				2B3009E0215F690100FE3A2E /* AAPLHeaderView.swift */,
+				2B3009DE215F690100FE3A2E /* AAPLImageCollection.swift */,
+				2B3009E9215F690200FE3A2E /* AAPLImageFile.swift */,
+				2B3009DC215F690100FE3A2E /* AAPLSlide.swift */,
+				2B3009E5215F690100FE3A2E /* AAPLSlideBorderView.swift */,
+				2B3009E4215F690100FE3A2E /* AAPLSlideCarrierView.swift */,
+				2B3009E1215F690100FE3A2E /* AAPLSlideImageView.swift */,
+				2B3009E8215F690100FE3A2E /* AAPLSlideLayout.swift */,
+				2B3009E3215F690100FE3A2E /* AAPLWrappedLayout.swift */,
+				2B3009E7215F690100FE3A2E /* Array+sorted.swift */,
+				2B3009EA215F690200FE3A2E /* ObjC.swift */,
+			);
+			path = "New Group";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -123,6 +185,9 @@
 			files = (
 				2B3009D1215F68E500FE3A2E /* Assets.xcassets in Resources */,
 				2B3009D4215F68E500FE3A2E /* Main.storyboard in Resources */,
+				2B3009FE215F696F00FE3A2E /* Slide.xib in Resources */,
+				2B3009FF215F696F00FE3A2E /* MainMenu.xib in Resources */,
+				2B300A00215F696F00FE3A2E /* BrowserWindow.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -133,8 +198,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2B3009F9215F690200FE3A2E /* ObjC.swift in Sources */,
+				2B3009F6215F690200FE3A2E /* Array+sorted.swift in Sources */,
+				2B3009F0215F690200FE3A2E /* AAPLSlideImageView.swift in Sources */,
+				2B3009EB215F690200FE3A2E /* AAPLSlide.swift in Sources */,
+				2B3009F3215F690200FE3A2E /* AAPLSlideCarrierView.swift in Sources */,
+				2B3009F7215F690200FE3A2E /* AAPLSlideLayout.swift in Sources */,
+				2B3009F5215F690200FE3A2E /* AAPLBrowserWindowController.swift in Sources */,
 				2B3009CF215F68E400FE3A2E /* ViewController.swift in Sources */,
+				2B3009EF215F690200FE3A2E /* AAPLHeaderView.swift in Sources */,
+				2B3009EE215F690200FE3A2E /* AAPLAppDelegate.swift in Sources */,
 				2B3009CD215F68E400FE3A2E /* AppDelegate.swift in Sources */,
+				2B3009EC215F690200FE3A2E /* AAPLFooterView.swift in Sources */,
+				2B3009F4215F690200FE3A2E /* AAPLSlideBorderView.swift in Sources */,
+				2B3009F1215F690200FE3A2E /* AAPLFileTreeWatcherThread.swift in Sources */,
+				2B3009ED215F690200FE3A2E /* AAPLImageCollection.swift in Sources */,
+				2B3009F2215F690200FE3A2E /* AAPLWrappedLayout.swift in Sources */,
+				2B3009F8215F690200FE3A2E /* AAPLImageFile.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
