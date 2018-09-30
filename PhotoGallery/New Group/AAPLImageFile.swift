@@ -180,7 +180,7 @@ class AAPLImageFile: NSObject {
     }
     
     func requestPreviewImage() {
-        //guard self.previewImage == nil else {return}
+        guard self.previewImage == nil else {return}
         type(of: self).previewLoadingOperationQueue.addOperation {
             guard self.createImageSource() else {return}
             let options: [AnyHashable: Any] = [

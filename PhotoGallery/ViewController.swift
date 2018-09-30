@@ -9,7 +9,7 @@
 import Cocoa
 
 
-class ViewController: NSViewController, NSCollectionViewDataSource,NSCollectionViewDelegate {
+@objcMembers class ViewController: NSViewController, NSCollectionViewDataSource,NSCollectionViewDelegate {
 
     
     private var rootURL: URL!                                         // URL of the folder whose image files the browser is displaying
